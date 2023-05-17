@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(temperature-converter.webp) no-repeat center center/cover;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: rgb(38 59 81);
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777;
+    opacity: 0.9;
+
+}
+
+#tempCalc label {
+    font-size: 30px;
+}
+
+#temp {
+    border: none;
+    text-align: center;
+    padding: auto;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px
+}
+
+#tempDiff {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(20, 18, 18);
+    color: #e3dede;
+}
+
+#resultContainer {
+    font-size: 35px;
+}
